@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank DApp</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="header">
+          <span>65063803</span>
+          <span>จุฑาทิพย์ บุญใจ</span>
+    </div>
+    <div class="container">
+      <h1>Bank App</h1>
+      <p>Connected Account: <span id="account">Not Connected</span></p>
+      <p>Balance: <span id="balance">0</span> ETH</p>
+      <input type="number" id="amount" placeholder="Enter amount" />
+      <button class="deposit" onclick="deposit()">Deposit</button>
+      <button class="withdraw" onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
